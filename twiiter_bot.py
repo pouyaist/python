@@ -62,7 +62,8 @@ number_of_twitts = 20
 # We create an extractor object:
 extractor = twitter_setup()
 
-twitter_account_name = raw_input("Please enter twitter account name to Analyze:")
+print "Please enter twitter account name to Analyze. \nSuggestion:\trealDonaldTrump"
+twitter_account_name = raw_input()
 
 
 # We create a tweet list as follows:
